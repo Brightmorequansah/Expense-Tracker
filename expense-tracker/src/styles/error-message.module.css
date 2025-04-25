@@ -1,0 +1,17 @@
+.error-message {
+    color: #FF4D4D; 
+    font-size: 0.8rem; 
+    background-color: #FFE6E6;
+    border: 1px solid #FF4D4D; 
+    padding: 10px; 
+    border-radius: 5px; 
+    margin-top: 10px; 
+    width: 65%; 
+    text-align: center; 
+  }
+  
+  .error-message::before {
+    content: "⚠ "; 
+    font-size: 1.1rem; 
+  }
+  

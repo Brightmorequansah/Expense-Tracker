@@ -1,0 +1,158 @@
+.login-page {
+  background: linear-gradient(rgba(3, 27, 136, 0.9), rgba(0, 8, 50, 0.9)),
+    url("../Images/expense-tracking.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+    height: 95vh;
+    width: 75vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* MAIN TEXT */
+
+.main-text-left {
+    font-size: 4rem;
+    font-weight: 600;
+    color: white;
+    width: 60%;
+}
+
+.highlighted-text {
+    color: #FF6B81;
+}
+
+
+/* LOGIN CARD */
+
+.login-card {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 27vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.login-text {
+    font-weight: 900;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    font-size: 45px;
+    color: white;
+    position: absolute;
+    bottom: 88%;
+}
+
+
+/* EMAIL SIGN IN*/
+
+.email-sign-in {
+    height: 25%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 30px;
+}
+
+.input-wrapper {
+    width: 100%;
+    border-radius: 7px;
+    font-size: 1rem;
+    position: relative;
+}
+
+.input-field {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 4px;
+    font-size: 0.8rem;
+    padding: 0 45px 0 20px;
+}
+.input-icon {
+    position: absolute;
+    right: 20px;
+    top: 55%;
+    transform: translateY(-50%);
+}
+
+.input-field::placeholder{
+    color: rgb(85, 85, 85);
+}
+
+.login-btn {
+    width: 100%;
+    height: 5vh;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    background: linear-gradient(90deg, #031B88, #FF6B81);
+    color: white; 
+    cursor: pointer; 
+    font-size: 0.9rem; 
+    font-weight: bold; 
+    margin-top: 10px;
+}
+
+.login-btn:hover {
+    background: linear-gradient(90deg, #03197c, #d15a6c);
+    transition: 0.3s ease;
+}
+
+
+
+/* GOOGLE SIGN IN*/
+
+.google-sign-in{
+    margin-top: 40px;
+    width: 60%;
+    position: relative;
+}
+.google-btn {
+    width: 100%;
+    height: 4.5vh;
+    border-radius: 5px;
+    border: 1.5px solid rgb(178, 178, 178);
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    color: rgb(71, 71, 71); 
+}
+
+.google-btn:hover{
+    border: 1.5px solid rgb(61, 61, 61);
+    color: black;
+    transition: 0.2s ease;
+}
+
+.google-icon {
+    position: absolute;
+    left:18%;
+    bottom: 24%;
+    font-size: 22px;
+    align-self: center;
+}
+
+.signup-link {
+    margin-left: 2px;
+    color: blue;
+}

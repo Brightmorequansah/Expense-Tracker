@@ -1,0 +1,66 @@
+.layout {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 250px; /* Fixed width for the sidebar */
+    background: white;
+    color: #031B88;
+    padding: 20px;
+    min-height: 100vh;
+    box-shadow: 1px 0 10px rgba(3, 27, 136, 0.059); 
+    z-index: 1; 
+    transition: all 0.4s;
+}
+  
+  .top-section {
+    display: flex;
+    align-items: center;
+    padding: 15px 0 30px 15px;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: 800;
+    color: #031B88;
+  }
+  
+  .sidebar-icon {
+    font-size: 30px;
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .link {
+    display: flex;
+    color: #031B88;
+    padding: 10px 15px;
+    gap: 10px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 2px;
+  }
+
+.link:hover{
+    color: #4c5682;;
+}
+  
+.active {
+    background: linear-gradient(90deg, #031B88, #FF6B81);
+    color: white;
+}
+
+.active:hover {
+    background: linear-gradient(90deg, #031B88, #FF6B81);
+    color: white;
+}
+
+.icon {
+    font-size: 18px;
+}
+
+.link-text {
+    font-size: 14px;
+    font-weight: 600;
+}

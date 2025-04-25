@@ -1,0 +1,213 @@
+.header{
+    margin: 0;
+    width: 100%;
+    background: white;
+    
+  }
+
+.expense-tracker {
+  margin: 25px 20px 20px 42px;
+}
+
+.page-label{
+    margin-bottom: 35px;
+    font-weight: bold;
+}
+
+/* CARDS */
+
+
+.cards-container {
+  display: flex;
+  margin-bottom: 30px;
+  gap: 2rem;
+  align-items: center;
+}
+
+.card, .expense-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(3, 27, 136, 0.069);
+  width: 250px;
+  display: flex;
+  height: 90px;
+  align-items: center;
+  gap: 1rem;
+}
+
+.balance-icon {
+    font-size: 40px;
+    color: #ffc400;
+}
+
+.income-icon{
+    font-size: 50px;
+    color: green;
+}
+
+.expense-icon {
+    font-size: 70px;
+    color: red;
+    position: relative;
+    right: 10px;
+}
+
+
+.balance-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.income-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.expense-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    position: relative;
+    right: 20px;
+}
+
+
+.main-content {
+  display: flex;
+  gap: 3rem;
+}
+
+/* ADD TRANSACTION FORM */
+.title-label {
+  color: #03197c;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.form-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 45%;
+}
+
+.input-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input-field {
+  height: 50px;
+  border: none;
+  border: 1px solid rgb(160, 160, 160);
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.input-field::placeholder {
+  color: rgb(85, 85, 85);
+}
+
+.transaction-label {
+  font-weight: 500;
+}
+
+.add-transaction-button {
+  color: white;
+  background-color: #ff5770;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 8px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.add-transaction-button:hover {
+  color: white;
+  background-color: #d8445a;
+}
+
+/* TRANSACTIONS LIST */
+
+.transactions-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 45%;
+}
+
+.t-list {
+  height: 55vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.edit-and-delete-container {
+    margin-top: 5px;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    gap: 5px;
+}
+
+.edit-btn {
+    padding: 3px 10px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: #2542c1;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.edit-btn:hover {
+    color: white;
+    background-color: #1b308b;
+}
+
+.delete-btn{
+    padding: 3px 10px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: #ff5770;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.delete-btn:hover {
+    color: white;
+    background-color: #d84a5f;
+}
+
+.radio-buttons {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.radio-buttons input {
+  margin: 0 10px;
+}
+
+.transactions-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.transactions-card li {
+  background-color: #f8f9fa;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.date-time {
+    padding-top: 5px;
+    font-size: 14px;
+}
